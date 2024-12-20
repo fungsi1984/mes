@@ -68,7 +68,7 @@ struct CPU {
                 Z = (A & 0b10000000) > 0;
             } break;
             default: {
-                printf(" intsuction failed");
+                printf(" intruction failed");
             } break;
             }
         }
