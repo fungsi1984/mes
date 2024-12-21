@@ -1,3 +1,17 @@
+### HOW TO COMPILE
+```
+    Makefiles
+    - make
+
+    CMakefiles
+    - cmake -B build
+    - cmake --build build
+
+    Cmake with ninja
+    - cmake -B build -G Ninja
+```
+
+
 ### HOW TO USE GDB
 ```
 g++ -g mos.cpp -o mos
@@ -61,3 +75,8 @@ memory read "mem.Data + 0xFFFC"
 memory read --size 1 --format x --count 4 "mem.Data + 0xFFFC"
 0x7fffffffd9f4: 0xa9 0x00 0x00 0x00
 ```
+
+### RESOURCES
+- ben eater 6502 video
+- dave poo 6502 emulator
+- data sheet, https://eater.net/6502
