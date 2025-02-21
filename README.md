@@ -80,3 +80,5 @@ memory read --size 1 --format x --count 4 "mem.Data + 0xFFFC"
 - ben eater 6502 video
 - dave poo 6502 emulator
 - data sheet, https://eater.net/6502
+- file asm, https://gist.github.com/Cyanne/69f57f3d46495fa53639d9c45b616947
+- https://github.com/gianlucag/mos6502/tree/master
