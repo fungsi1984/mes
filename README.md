@@ -9,6 +9,7 @@
 
     Cmake with ninja
     - cmake -B build -G Ninja
+    - cmale --build build
 ```
 
 
