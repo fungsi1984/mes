@@ -77,7 +77,8 @@ memory read --size 1 --format x --count 4 "mem.Data + 0xFFFC"
 0x7fffffffd9f4: 0xa9 0x00 0x00 0x00
 ```
 
-```jetbrains & zed memory view
+```
+jetbrains & zed memory view
 &(mem.Data[0xfffc])
 ```
 
